@@ -1,0 +1,458 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+/* navigation bar */
+nav {
+    display: flex;
+    background-color: rgb(14, 9, 75);
+    position: absolute;
+    top: 0%;
+
+    width: 100%;
+    height: 30%;
+
+}
+
+nav .left {
+    color: rgb(240, 7, 7);
+    width: 20%;
+    padding: 20px;
+    margin-right: 10px;
+    position: absolute;
+    top: 1%;
+    left: 3%;
+    font-size: 2.2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+nav .right {
+    color:  rgb(235, 183, 12);
+    width: 75%;
+    margin-left: 20px;
+    padding: 10px;
+    position: absolute;
+    top: 2%;
+    right: 0%;
+
+}
+
+nav ul {
+    display: flex;
+    justify-content: right;
+}
+
+nav ul li {
+    list-style: none;
+    background-color: rgb(235, 183, 12);
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(20, 19, 19);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 0.8rem;
+    margin-left: 5px;
+    padding: 8px;
+    cursor: pointer;
+}
+
+nav ul li a:hover {
+    text-decoration: none;
+    font-size: 1.02rem;
+    margin-left: 5px;
+    padding: 8px;
+    color: rgb(197, 102, 8);
+    cursor: pointer;
+}
+
+nav ul li form input {
+    width: 80px;
+    height: 15px;
+    margin-left: 20px;
+    color: rgb(233, 233, 8);
+    
+}
+input[type=text] {
+    width: 30%;
+    -webkit-transition: width 0.15s ease-in-out;
+    transition: width 0.15s ease-in-out;
+ }
+ input[type=text]:focus {
+    width: 70%;
+  }
+
+nav .name {
+    position: absolute;
+    top: 30%;
+    right: 0%;
+    text-align: left;
+
+    width: 28%;
+    padding: 2px;
+
+}
+
+nav .name h1 {
+    color: white;
+    left: 2%;
+    font-size: 1.8rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+nav .name h5 {
+   
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1rem;
+
+}
+
+nav .name .h6 {
+    color: rgb(235, 183, 12);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 0.8rem;
+
+}
+
+/* section */
+section {
+    position: absolute;
+    top: 30%;
+    margin: 0%;
+    padding: 0%;
+    border: 8px solid  rgb(14, 9, 75);
+    background-color: rgb(253, 253, 251);
+
+}
+
+div {
+    display: block;
+
+ }
+
+
+.first {
+
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+
+}
+
+.first .left {
+    padding: 20px;
+    margin-left: 10%;
+    width: 40%;
+    
+    background-color: black;
+}
+
+.first img {
+    padding-top: 30px;
+    width: 22rem;
+    
+}
+
+.first .right {
+    width: 40%;
+    margin-right: 10%;
+    padding: 20px;
+    border: 8px solid rgb(15, 15, 15);
+    
+}
+
+.first .ab{
+    display: flex;
+}
+
+.first .about {
+    padding: 2px;
+    margin: 2px;
+   
+}
+
+.first .ab img{
+    width: 40px;
+    padding: 0px 0px 40px 40px;
+}
+
+.first h1 {
+    font-size: 2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(172, 6, 6);
+}
+
+.first h2{
+    margin-left: 5px;
+    padding: 8px;
+    color: rgb(235, 183, 12); 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.first .bio {
+   
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 0.8rem;
+    margin-left: 5px;
+    padding: 8px;
+    color: rgb(235, 183, 12);
+   
+}
+
+.first .regard {
+    
+    color: rgb(235, 183, 12);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 0.8rem;
+    margin-left: 5px;
+    padding: 8px;
+}
+
+.second {
+    display: block;
+    padding: 20px;
+    margin: 20px;
+    background-color: rgb(14, 9, 75) ;
+  
+}
+
+.second .educations .pri {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.second .pri h2 {
+    font-size: 2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+   
+}
+
+.second .pri img {
+    width: 40px;
+}
+
+.second .sec {
+color:rgb(235, 183, 12) ;
+    text-align: center;
+
+}
+
+.second .flex {
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+
+}
+
+.flex ul li {
+    list-style: none;
+}
+
+
+.second .flex .box {
+
+    border-radius: 10px;
+    padding: 5px;
+    margin-left: 5px;
+    background-color:  rgb(235, 183, 12);
+    padding-top: 40px;
+    text-align: center;
+
+}
+
+/* skills section */
+.skills{
+    padding: 20px;
+    background-color:rgb(14, 9, 75);
+    margin: 40px;
+
+}
+
+.skills .pri {
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+ text-align: center; 
+}
+
+.skills .pri h2{
+    font-size: 2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white  ;
+}
+
+.skills .sec{
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+text-align: center;
+    font-size: 1.2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(235, 183, 12)  ;
+   
+   
+}
+
+.skills .sec ul li{
+    list-style: none;
+    
+}
+/* third section */
+
+
+
+ .intrest {
+    background-color:  rgb(14, 9, 75);
+    color:  rgb(235, 183, 12);
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+margin: 30px;
+padding: 20px;
+}
+
+.intrest .pri {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    color: white;
+}
+
+.intrest .pri h2{
+    font-size: 2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white  ;
+}
+
+ .intrest .sec {
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+text-align: center;
+    font-size: 1.2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(235, 183, 12)  ;
+ }
+
+.intrest .sec ul li {
+    list-style: none;
+}
+
+
+
+.achievements {
+
+    color:  rgb(235, 183, 12);
+    background-color: rgb(14, 9, 75);
+    font-weight: bold;
+    margin: 30px;
+    padding: 20px;
+}
+
+
+
+.achievements .pri {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+color: white;
+
+}
+
+.achievements .pri h2{
+    font-size: 2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white  ;
+}
+
+.achievements .sec {
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+text-align: center;
+    font-size: 1.2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(235, 183, 12)  ;
+   
+}
+
+.achievements .sec ul li {
+    list-style: none;
+
+}
+
+
+footer {
+    position: fixed;
+    bottom: 0%;
+    display: flex;
+    background-color: white;
+    color: black;
+    font-size: 1rem;
+    width: 100%;
+    height: 8%;
+}
+
+footer .l {
+    left: 0%;
+    margin-left: 10px;
+    padding: 10px;
+    
+}
+
+footer .r {
+    position: absolute;
+    right: 2%;
+    display: flex;
+}
+
+
+#linkedin {
+    display: flex;
+}
+
+#kaggle {
+    display: flex;
+}
+
+#github {
+    display: flex;
+}
+
+#utube {
+    display: flex;
+}
+
+#twitter {
+    display: flex;
+}
+
+footer .r a {
+    text-decoration: none;
+    color: rgb(10, 2, 2);
+    margin-right: 10px;
+    padding: 10px 10px 10px 0px;
+    border: grey;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+
+}
+
+footer .r a:hover {
+    text-decoration: none;
+    margin-right: 10px;
+    padding: 10px 10px 10px 0px;
+    color: rgb(252, 25, 25);
+    border-radius: 5px;
+    font-size: 1.04rem;
+    cursor: pointer;
+}
